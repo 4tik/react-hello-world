@@ -8,24 +8,13 @@ export default function Home() {
       </h1>
 
       <div className="mt-6 flex flex-wrap gap-2">
-        <Link href="/about" className="my-link">
-          About
-        </Link>
 
         <Link href="/profile" className="my-link">
           Profile
         </Link>
 
-        <Link href="/blogs" className="my-link">
-          Blog
-        </Link>
-
         <Link href="/products/2" className="my-link">
           Product
-        </Link>
-
-        <Link href="/docs" className="my-link">
-          Document
         </Link>
 
         <Link href="/docs/routes/catch-all segment" className="my-link">
