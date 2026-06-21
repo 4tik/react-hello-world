@@ -7,7 +7,7 @@ export default function MainLayout({
   children: React.ReactNode;
 }) {
   return (
-    <>
+    <div className="min-h-screen flex flex-col">
       {/* Navbar */}
       <header className="sticky top-0 z-50 bg-white/80 backdrop-blur shadow-md">
         <div className="mx-auto flex items-center justify-between px-4 py-4">
@@ -40,11 +40,11 @@ export default function MainLayout({
       </main>
 
       {/* Footer */}
-      <footer className="bg-white shadow-md">
+      <footer className="bg-white shadow-md mb-0">
         <div className="mx-auto px-4 py-4 text-center text-sm text-slate-500">
           © 2026 Next.js Learning Project
         </div>
       </footer>
-    </>
+    </div>
   );
 }
