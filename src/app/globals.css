@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+h1 {
+  @apply text-2xl font-bold
+}
+
+.my-link {
+  @apply bg-blue-200 rounded-xl py-1 px-2 font-semibold text-sm border border-blue-400
+}
